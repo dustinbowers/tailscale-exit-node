@@ -7,14 +7,12 @@ services:
     image: tailscale/tailscale:latest
     cap_add:
       - net_admin
-        #- NET_RAW
       - sys_module
     sysctls:
       - net.ipv4.ip_forward=1
     volumes:
-      # - /var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket
       - ./tailscale:/var/lib/tailscale
       - /dev/net/tun:/dev/net/tun
-        #command: tailscaled
     restart: unless-stopped
     env_file: tailscale.env
+
