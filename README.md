@@ -5,8 +5,8 @@ A simple to use containerized Tailscale exit node
 ## Setup
 
 ```
-git clone https://github.com/dustinbowers/docker-tailscale-exit-node
-cd docker-tailscale-exit-node
+git clone https://github.com/dustinbowers/tailscale-exit-node
+cd tailscale-exit-node
 cp tailscale.env.example tailscale.env
 ```
 - Get a tailscale auth key from your [Tailscale Admin Console](https://login.tailscale.com/admin)
