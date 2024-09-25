@@ -2,7 +2,11 @@
 
 A simple to use containerized Tailscale exit node
 
-## Setup
+### Requirements
+
+- Install [Docker](https://www.docker.com/)
+
+### Setup
 
 ```
 git clone https://github.com/dustinbowers/tailscale-exit-node
@@ -12,9 +16,11 @@ cp tailscale.env.example tailscale.env
 - Get a tailscale auth key from your [Tailscale Admin Console](https://login.tailscale.com/admin)
 - Add your auth key to `TS_AUTHKEY=` in the `tailscale.env` file
 
-## Usage
+- After startng the container, go to the tailscale admin console and allow the new Machine to run as an exit node on your tailnet
 
-- Start the exit node container: `./start.sh`
-- Stop the exit node container: `./stop.sh`
+### Usage
+
+- Start Tailscale exit node: `./start.sh`
+- Stop Tailscale exit node: `./stop.sh`
 
 
