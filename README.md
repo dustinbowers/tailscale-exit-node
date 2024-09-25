@@ -10,7 +10,7 @@ cd tailscale
 cp tailscale.env.example tailscale.env
 ```
 - Get a tailscale auth key from your [Tailscale Admin Console](https://login.tailscale.com/admin)
-- Add your auth key to `TS_AUTH_KEY=` in the `tailscale.env` file
+- Add your auth key to `TS_AUTHKEY=` in the `tailscale.env` file
 
 ## Usage
 
