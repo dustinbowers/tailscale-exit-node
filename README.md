@@ -1,6 +1,8 @@
 # Tailscale Exit Node
 
-A simple to use containerized Tailscale exit node
+A simple containerized Tailscale exit node.  
+  
+This allows routing internet traffic from connected devices on your tailnet through this exit node
 
 ### Requirements
 
