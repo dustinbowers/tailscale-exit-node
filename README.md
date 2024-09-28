@@ -18,7 +18,7 @@ cp tailscale.env.example tailscale.env
 - Get a tailscale auth key from your [Tailscale Admin Console](https://login.tailscale.com/admin)
 - Add your auth key to `TS_AUTHKEY=` in the `tailscale.env` file
 
-- After startng the container, go to the tailscale admin console and allow the new Machine to run as an exit node on your tailnet
+- Start the container with `./start.sh` (or `docker compose up -d`) then go to the tailscale admin console and allow the new Machine to run as an exit node on your tailnet
 
 ### Usage
 
