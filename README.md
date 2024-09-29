@@ -22,7 +22,5 @@ cp tailscale.env.example tailscale.env
 
 ### Usage
 
-- Start Tailscale exit node: `./start.sh`
-- Stop Tailscale exit node: `./stop.sh`
-
-
+- Start Tailscale exit node: `./start.sh` (or `docker compose up -d`)
+- Stop Tailscale exit node: `./stop.sh` (or `docker compose down`)
